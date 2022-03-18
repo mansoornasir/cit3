@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Home Services 1</h1>
+    <h2>Home Services 2</h2>
+    <h3>Home Services 3</h3>
+    <h4>Home Services 4</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem odio, doloribus porro cupiditate, soluta ipsa minima minus itaque facilis aperiam fugit atque, deserunt ab architecto doloremque eligendi praesentium corrupti magnam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem odio, doloribus porro cupiditate, soluta ipsa minima minus itaque facilis aperiam fugit atque, deserunt ab architecto doloremque eligendi praesentium corrupti magnam.
+    </p>
+    <a href="https://www.google.com">Google</a>
+    <img src="./images/bluejay.jpg"/>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <dl>
+        <dt>Computer Science</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis quaerat nostrum numquam dicta eligendi, placeat, quasi quam sapiente facilis delectus ea earum. Vitae tenetur deserunt quaerat eveniet sapiente omnis?</dd>
+        <dt>Sofware Engineering</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ut voluptates debitis tenetur magni provident nostrum, vel ab dignissimos ex ullam tempora inventore? Minima exercitationem quod quidem cumque perferendis saepe!</dd>
+        <dt>Civil Engineer</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt voluptatum laudantium iusto cupiditate quasi distinctio dolore corrupti quo iste necessitatibus soluta, quae, voluptates eligendi tenetur accusantium aliquam optio, ullam deleniti.</dd>
+    </dl>
+    <pre>
+        import javax.swing.JOptionPane;
+        public class Hello {
+            public static void main(String[] args) {
+                String name = JOptionPane.showInputDialog("What is your name?");
+                JOptionPane.showMessageDialog(null, "Hello, " + name + "!");
+            }
+        }
+    </pre>
+    <p>Lorem ipsum &amp; dolor sit amet <q>consectetur</q> adipisicing elit. Vero ad delectus eveniet iste consectetur, obcaecati <strong>deserunt</strong> eligendi. Iusto, <u>praesentium</u> vel ea unde enim sit, dolorum <s>quidem</s> aspernatur <mark>pariatur</mark>, odio temporibus!</p>
+    <hr />
+    <h1>A new topic with heading</h1>
+    <blockquote><p><q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ab fuga dignissimos mollitia blanditiis impedit quidem quam aut? Voluptas ut nam impedit ea natus minus, ad perspiciatis incidunt alias voluptatibus.</p></q></blockquote>
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>GPA</th>
+                <th colspan="2">Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>Math</td>
+                <td>3.5</td>
+                <td>Peshawar</td>
+                <td>Peshawar</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane</td>
+                <td>English</td>
+                <td>3.0</td>
+                <td>Karak</td>
+                <td>Ahmad Abad</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Jack</td>
+                <td>Science</td>
+                <td>3.0</td>
+                <td>Charsadda</td>
+                <td>Tangi</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Total</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr />
+    <hr />
+    <hr />
+    <form action="abc.php" method="post">
+        <label for="username">Username:</label></lable> <input type="text" name="username" id="username" placeholder=""/>
+        <label for="email">Email: </label><input type="email" name="email" id="email" placeholder=""/> 
+        <label for="password">Password: </label><input type="password" name="password" id="password" placeholder=""/>
+        <input type="submit" name="submit" value="Login" id="btn-login" />   
+
+        <label for="cpp">C++</label><input type="checkbox" name="cpp" id="cpp" checked/>
+        <label for="java">Java</label><input type="checkbox" name="java" id="java" />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+        <label for="cs">Computer Science</label><input type="radio" name="subject" value="cs" id="cs" />
+        <label for="se">Software Engineering</label><input type="radio" name="subject" value="se" id="se" />
+        <label for="it">Information Technology</label><input type="radio" name="subject" value="it" id="it" />
+    <select>
+            <option>--Please Select--</option>
+            <option value="cs">Computer Science</option>
+            <option value="se">Software Engineering</option>
+            <option value="it">Information Technology</option>
+        </select>
+    </form>
+
+    
+</body>
+</html>

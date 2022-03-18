@@ -1,0 +1,58 @@
+p {
+  color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+
+h3 {
+  color: red;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+}
+
+button, .button2 {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+button:hover, .button2:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
+
+.button2 {
+  color: red;
+}
+
+h1 {
+  color: #ff99ff;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li {
+  display: block;
+  padding: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  color: #ffccff;
+}
+/*# sourceMappingURL=styles.css.map */

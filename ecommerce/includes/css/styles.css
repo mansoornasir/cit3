@@ -1,0 +1,192 @@
+/* 
+    Primary color: rgb(3, 164, 218);
+    Secondary Color: rgb(189,5,125);
+    Text Color: 
+    heading size
+    font-size: 
+
+*/
+
+div#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+header img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+header span#title {
+    font-weight: bold;
+    font-size: 1.5em;
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+/* TO DO */
+header span#slogan { 
+    clear: both;
+    float: left;
+    padding-left: 85px;
+    top: -10px; 
+    position: relative;
+}
+
+header div#search {
+    float: right;
+    top: -20px;
+    margin-right: 10px;
+    position: relative;
+}
+
+header div#search input#nameField {
+    width: 100px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+}
+header div#search input#nameField:focus {
+    border: 2px solid red;
+}
+header div#search input#btn-search {
+    border-radius: 10px;
+    color: black;
+}
+header div#search input#btn-search:hover {
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+nav {
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    /* padding-top: 10px; */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+
+}
+nav ul li a {
+    color: rgb(189,5,125);
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 60px;
+    height: 20px;
+    width: 60px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+aside {
+    width: 25%;
+    float: left;
+    height: 250px;
+}
+aside ul {
+    list-style-type: none;
+}
+aside ul li {
+    display: block;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+aside ul li a {
+    display: inline-block;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(3, 164, 218);
+    border-radius: 5px;
+}
+aside ul li a:hover {
+    color: black;
+}
+
+div#products {
+    width: 70%;
+    float: left;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 231, 231);
+}
+div.card {
+    width: 180px;
+    height: 240px;
+    text-align: center;
+    cursor: pointer;
+    /* border: 1px dashed rgb(226, 96, 181); */
+    float: left;
+    margin: 15px;
+    background-color: white;
+}
+div.card:hover {
+    box-shadow: 0 0 10px rgb(226, 96, 181);
+}
+div.card img {
+    width: 100px;
+    height: 100px;
+}
+
+div.card h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(189,5,125);
+}
+
+div.card p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    padding: 10px;
+}
+div.card p.price {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color:rgb(189,5,125);
+    font-weight: bold;
+}
+div.card button {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(189,5,125);
+    color: white;
+    border: none;
+}
+div.card button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+footer {
+    width: 100%;
+    margin-top: 10px;
+    clear: both;
+    float: left;
+
+}
+footer p {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(235, 231, 231);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
