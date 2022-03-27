@@ -193,3 +193,96 @@ Carousel
             span.carousel-control-prev-icon
         a.carousel-control-next href="#test" data-slide="next"
             span.carousel-control-next-icon
+
+Flex
+    - Display
+        d-flex
+        d-inline-flex
+        flex-row (default)
+        flex-row-reverse
+        flex-column
+        flex-column-reverse
+        flex-fill
+        flex-grow-1
+        flex-shrink-1
+
+
+    - Content Alignment
+        justify-content-start
+        justify-content-end
+        justify-content-center
+        justify-content-between
+        justify-content-around
+        align-items-start
+        align-items-end
+        align-items-center
+        align-items-baseline
+        align-items-stretch
+        align-content-start
+        align-content-end
+        align-content-center
+        align-content-between
+        align-content-around
+        align-content-stretch
+
+    - Order
+        order-first
+        order-last
+        order-0
+        order-1
+        ms-auto (push to the right)
+        me-auto (push to the left)
+
+Utilities
+    - Margin and padding
+        bg-primary m5 p5
+        my-5 mx-5 px-5 py-5
+        mt-3 mb-3 mr-3 ms-5 me-5
+        ps-3 pb-3 pr-3 pe-3
+        w-25 (25%)
+        w-auto
+        mw-100 (100%)
+        h-25
+        mh-100 (100%)
+        g-1
+        g-2
+    - border
+        border (border-5)
+        border-top
+        border-end
+        border-start
+        border-success|danger|info|primary|secondary|success|warning|danger|dark|light|link
+        rounded border
+        rounded-pill border border-5
+    - box shadow
+        shadow-sm
+        shadow-lg
+        shadow-none
+    - font weight
+        fw-bold
+        fw-bolder
+        fw-normal
+        fw-light
+        fw-lighter
+        fw-italic
+    - Colors
+        text-muted
+        text-primary
+        text-secondary
+        text-success
+        text-danger
+        text-warning
+        text-info
+        text-dark
+        text-light
+        text-white
+        bg-primary
+        bg-secondary
+        bg-success
+        text-black-50
+        text-white-50
+    - Other
+        visible
+        invisible
+
+Icons
