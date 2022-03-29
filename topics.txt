@@ -286,3 +286,9 @@ Utilities
         invisible
 
 Icons
+Modal
+Scrollspy
+Progress
+Popups
+Tooltips
+Toasts
