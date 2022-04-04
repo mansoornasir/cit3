@@ -1,0 +1,24 @@
+{
+    "products": [
+      {
+        "name": "Laptop",
+        "price": 1000,
+        "isAvailable": true
+      },
+      {
+        "name": "Mobile",
+        "price": 500,
+        "isAvailable": false
+      },
+      {
+        "name": "TV",
+        "price": 2000,
+        "isAvailable": false
+      },
+      {
+        "name": "Fridge",
+        "price": 3000,
+        "isAvailable": true
+      }
+    ]
+  }
