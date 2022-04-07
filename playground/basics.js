@@ -152,5 +152,75 @@ const data = {
     ]
 }
 
-console.log(students[2].friends[2])
+const products = data.products;
 
+// for(let i=0; i<products.length; i++){
+//     console.log(products[i].name);
+// }
+
+const obj = {
+    name: 'Abdus Samad',
+    age: 23,
+    isPass: true,
+    friends: ['Abdus Samad', 'Abdul Qadir', 'Abdul Samad'],
+    address: {
+        city: 'Mardan',
+    }
+}
+// console.log(Object.keys(obj));
+// for(let key in obj){
+//     console.log(key);
+// }
+
+
+// const marks = [2,35,2,4,6,3,6,3,654,3,32]
+
+// for(let i=0;i<marks.length;i++) {
+//     console.log(marks[i])
+// }
+
+// marks.forEach(function (n) {
+//     console.log(n)
+// })
+
+// marks.forEach((n, i) => {
+//         console.log(`Value ${n} Index${i}`);
+//     })
+
+// Map
+// const square = marks.map((n) => n > 30 ? n * n : n);
+
+// console.log(square)
+// Filter
+
+// const fail = marks.filter((n) => n < 30);
+
+// let below = [];
+
+// for(let i = 0; i<marks.length; i++) {
+//     if(marks[i] < 30) {
+//         below.push(marks[i]);
+//     }
+// }
+
+// Reduce
+// const sum = marks.reduce(((a, b) => a + b), 0);
+
+// console.log(sum)
+
+// Find
+
+// Fill
+
+// sort
+
+const marks = [45, 33, 20, 77, 80, 95, 40, 55, 30, 22]
+
+
+const sum = marks
+    .sort((a, b) => a - b)
+    .filter((n) => n > 50)
+    .map((n) => n + 10)
+    .reduce((a, b) => a + b, 0);
+
+    console.log(sum)
