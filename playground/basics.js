@@ -215,12 +215,100 @@ const obj = {
 // sort
 
 const marks = [45, 33, 20, 77, 80, 95, 40, 55, 30, 22]
+const remain = [60,77];
+
+// const sum = marks
+//     .sort((a, b) => a - b)
+//     .filter((n) => n > 50)
+//     .map((n) => n + 10)
+//     .reduce((a, b) => a + b, 0);
+
+    // push
+    // // pop
+    // const l = marks.indexOf(45)
+    // console.log(l)
+    // if(l === -1 ){
+    //     marks.push(100)
+    // }
+
+    // console.log(sum)
+
+//    const full = marks.concat(remain);
+//    console.log(full)
+
+//    list = [10,10,10,45,66,77,88]
+
+//    list.fill(10,0,10)
+//     list.some(10)
 
 
-const sum = marks
-    .sort((a, b) => a - b)
-    .filter((n) => n > 50)
-    .map((n) => n + 10)
-    .reduce((a, b) => a + b, 0);
+// const names = ["Nadeem", "Tauheed", "Abdul Samad", "Abdul Qadir"];
 
-    console.log(sum)
+// const [stu1,,,name2] = names;
+
+
+// console.log(name2)
+
+// const student_list = {
+//     name: 'Abdus Samad',
+//     age: 23,
+//     marks: 30,
+//     isPass: true,
+//     friends: ['Abdus Samad', 'Abdul Qadir', 'Abdul Samad'],
+//     address: {
+//         city: 'Mardan',
+//         village: 'Katlang'
+//     }
+// }
+
+// changeMarks(student_list);
+
+// const changeMarks = ({marks, address}) => {
+
+//     obj.marks = 50
+
+// }
+
+
+const str1 = "Hello";
+const str2 = " World";
+const str = "My country is Pakistan."
+// const str3 = str1.concat(str2)
+// const str3 = str1 + str2;
+// const str4 = `${str1} ${str2}`;
+
+const l = str.indexOf("test");
+// console.log(l)
+const l2 = str.replace("new", "old");
+// console.log(l2)
+
+// const key = "Pakistan"
+// const country = str.slice(str.indexOf(key),str.indexOf(key) + key.length)
+// console.log(country)
+
+// const string = "1, Faizan, Laki Marwat, 3.5, 6th, ICP"
+
+// const [id, name, address, gpa, semester, institue] = string.split(",");
+
+const name = " Faizan"
+
+const trim = name.trim();
+
+// Array
+    // forEach
+    // map
+    // filter
+    // reduce
+    // indexOf
+    // Sort
+    // Slice
+    // Push/Pop
+    // Concat
+    // Fill, Some, Every
+
+
+// Strings
+    // trim, slice, concat, substring, split, indexOf, 
+    // length, replace, upper, lower
+
+// Array, object Destructoring
