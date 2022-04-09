@@ -46,7 +46,7 @@
 // Loops
 // For, While, Do While
 
-const list = [23,3,5,3,2,4,6,76]
+// const list = [23,3,5,3,2,4,6,76]
 
 // for(let i=0;i < list.length; i++){
 //     console.log(list[i]);
@@ -86,87 +86,87 @@ const list = [23,3,5,3,2,4,6,76]
 //     }
 // }
 
-const students = [
-    {
-        marks: 45,
-        name: 'Asad Shah',
-        gpa: 3.7,
-        isPass: true,
-        friends: ['Abdus Samad', 'Abdul Qadir', 'Abdul Samad'],
-        address: {
-            city: 'Mardan',
-            country: 'Pakistan',
-            thesil: 'Katlang'
-        }
-    },
-    {
-        marks: 55,
-        name: 'Anis',
-        gpa: 3.2,
-        isPass: true,
-        friends: ['Boy 1', 'Boy 2', 'Girl 1'],
-        address: {
-            city: 'Khyber',
-            country: 'Pakistan',
-            thesil: 'Warsak Road'
-        }
-    },
-    {
-        marks: 22,
-        name: 'Insha Ullah',
-        gpa: 2.0,
-        isPass: false,
-        friends: ['Kaleem', 'Kashif', 'Asad'],
-        address: {
-            city: 'D.I Khan',
-            country: 'Pakistan',
-            thesil: 'Nishta Road'
-        }
-    }
-]
+// const students = [
+//     {
+//         marks: 45,
+//         name: 'Asad Shah',
+//         gpa: 3.7,
+//         isPass: true,
+//         friends: ['Abdus Samad', 'Abdul Qadir', 'Abdul Samad'],
+//         address: {
+//             city: 'Mardan',
+//             country: 'Pakistan',
+//             thesil: 'Katlang'
+//         }
+//     },
+//     {
+//         marks: 55,
+//         name: 'Anis',
+//         gpa: 3.2,
+//         isPass: true,
+//         friends: ['Boy 1', 'Boy 2', 'Girl 1'],
+//         address: {
+//             city: 'Khyber',
+//             country: 'Pakistan',
+//             thesil: 'Warsak Road'
+//         }
+//     },
+//     {
+//         marks: 22,
+//         name: 'Insha Ullah',
+//         gpa: 2.0,
+//         isPass: false,
+//         friends: ['Kaleem', 'Kashif', 'Asad'],
+//         address: {
+//             city: 'D.I Khan',
+//             country: 'Pakistan',
+//             thesil: 'Nishta Road'
+//         }
+//     }
+// ]
 
 
-const data = {
-    products: [
-        {
-            name:"Laptop",
-            price: 1000,
-            isAvailable: true
-        },
-        {
-            name:"Mobile",
-            price: 500,
-            isAvailable: false
-        },
-        {
-            name:"TV",
-            price: 2000,
-            isAvailable: false
-        },
-        {
-            name:"Fridge",
-            price: 3000,
-            isAvailable: true
-        }
+// const data = {
+//     products: [
+//         {
+//             name:"Laptop",
+//             price: 1000,
+//             isAvailable: true
+//         },
+//         {
+//             name:"Mobile",
+//             price: 500,
+//             isAvailable: false
+//         },
+//         {
+//             name:"TV",
+//             price: 2000,
+//             isAvailable: false
+//         },
+//         {
+//             name:"Fridge",
+//             price: 3000,
+//             isAvailable: true
+//         }
 
-    ]
-}
+//     ]
+// }
 
-const products = data.products;
+// const products = data.products;
 
 // for(let i=0; i<products.length; i++){
 //     console.log(products[i].name);
 // }
 
-const obj = {
-    name: 'Abdus Samad',
-    age: 23,
-    isPass: true,
-    friends: ['Abdus Samad', 'Abdul Qadir', 'Abdul Samad'],
-    address: {
-        city: 'Mardan',
-    }
-}
+// const obj = {
+//     name: 'Abdus Samad',
+//     age: 23,
+//     isPass: true,
+//     friends: ['Abdus Samad', 'Abdul Qadir', 'Abdul Samad'],
+//     address: {
+//         city: 'Mardan',
+//     }
+// }
 // console.log(Object.keys(obj));
 // for(let key in obj){
 //     console.log(key);
@@ -270,16 +270,16 @@ const remain = [60,77];
 // }
 
 
-const str1 = "Hello";
-const str2 = " World";
-const str = "My country is Pakistan."
+// const str1 = "Hello";
+// const str2 = " World";
+// const str = "My country is Pakistan."
 // const str3 = str1.concat(str2)
 // const str3 = str1 + str2;
 // const str4 = `${str1} ${str2}`;
 
-const l = str.indexOf("test");
+// const l = str.indexOf("test");
 // console.log(l)
-const l2 = str.replace("new", "old");
+// const l2 = str.replace("new", "old");
 // console.log(l2)
 
 // const key = "Pakistan"
@@ -290,9 +290,9 @@ const l2 = str.replace("new", "old");
 
 // const [id, name, address, gpa, semester, institue] = string.split(",");
 
-const name = " Faizan"
+// const name = " Faizan"
 
-const trim = name.trim();
+// const trim = name.trim();
 
 // Array
     // forEach
@@ -312,3 +312,7 @@ const trim = name.trim();
     // length, replace, upper, lower
 
 // Array, object Destructoring
+
+// const list = new Set([1,2,3,4,5,6])
+// list.add(4)
+

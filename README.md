@@ -364,7 +364,6 @@
             - with arguments
             - without arguments
             - return
-            - arguments
             - default parameters
             - rest parameters
             - arrow functions
@@ -395,9 +394,7 @@
                 - concat
                 - indexOf
                 - lastIndexOf
-                - match
                 - replace
-                - search
                 - slice
                 - split
                 - substring
@@ -408,12 +405,61 @@
                 - trimRight
                 - valueOf
                 - Regular Expressions
+                    - example
+                        /[A-Z]+/g
+                    pattern
+                        - Basics
+                            - / hello\?\*\\/ escape special characters with backslashes
+                            - () group with parentheses
+                            - \ match the preceding character literally
+                            - / match the preceding character as a regular expression
+                            - | logical OR
+
+                        - Character Classes
+                            - \w word \d digit \s whitespace (tabs, line breaks)
+                            - \W NOT word \D NOT digit \S NOT whitespace
+                            - \t tabs, \n line breaks
+                        - Brackets
+                            - [xyz] match any x, y, z
+                            - [J-Z] match any capital letters between J & Z.
+                            - [^xyz] NOT x, y, z
+                        - Quantification
+                            - bob|alice match bob or alice
+                            - z? match zero or one of the preceding characters
+                            - z* match zero or more of the preceding characters
+                            - z+ match one or more of the preceding characters
+                            - z{n} match exactly n of the preceding characters
+                            - z{n,} match n or more of the preceding characters
+                            - z{n,m} match at least n and at most m of the preceding characters
+                        - Anchors
+                            - ^ match the beginning of the string
+                            - $ match the end of the string
+                            - \b word boundries
+                            - \B NOT word boundries
+                    - Modifiers
+                        - i (case insensitive)
+                        - g (global)
+                        - m (multiline)              
                     - exec
                     - test
                     - match
                     - search
+                        str.search(/test/i,text)
                     - replace
-        
+                    - Playground
+                        - https://regexr.com/
+                        - examples
+                            - https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285
+        - Rest vs Spread
+            - function test(firstName, lastName, ...otherInfo)
+            - const test = ["test", ...more, "test"];
+            - const name = "Mansoor";
+                console.log([...myName]); will yield ["M", "a", "n", "s", "o", "o", "r"]
+            - console.log(add(...numbers));
+            - const myNames = ["Test1", "Test2"];
+            - const test = { ...myNames, runs: "test" };
+            - const myName = { firstName: "mansoor", lastName: "nasir" };
+            - const bio = { ...myName, website: "mansoornasir.com" };
         - Number Methods
             - toExponential
             - toFixed
@@ -464,10 +510,12 @@
             - join
             - slice
             - push
+                The push() adds elements to the end of an array and returns the new length of the array.
+            - concat
+               The concat() method is used to merge arrays. Concat does not change the existing arrays, but instead returns a new array.
             - pop
             - indexOf
             - lastIndexOf
-            - concat
             - fill
             - Destructuring
         - Sets
@@ -489,13 +537,39 @@
             - Getters and Setters
             - Static Methods/Variables
             - Prototypes**
-
+            - Built-in Classes
+                - Array
+                - Date
+                - Error
+                - Function
+                - Map
+                - Math
+                - Object
+                - RegExp
+                - Set
+                - String
+                - JSON
+                - Promise
+            
         - Modules
             - Line Export
             - Named Export
             - Default Export
             - Import/Require
 
+
+        # DOM
+        - Document Methods
+            - getElementById
+            - getElementsByClassName
+            - getElementsByTagName
+            - querySelector
+            - querySelectorAll
+            - (There are several more, but we will not cover them here)    
+        - CSS
+            - https://www.w3schools.com/jsref/dom_obj_style.asp
+        - Events
+            - https://www.w3schools.com/jsref/dom_obj_event.asp
 
         # AJAX
             - Understanding Request/Response Sequence
@@ -508,19 +582,6 @@
             - Callback (Hell)
             - Promise
             - Async/Await
-
-        # DOM
-            - Document Methods
-                - getElementById
-                - getElementsByClassName
-                - getElementsByTagName
-                - querySelector
-                - querySelectorAll
-                - (There are several more, but we will not cover them here)    
-            - CSS
-                - https://www.w3schools.com/jsref/dom_obj_style.asp
-            - Events
-                - https://www.w3schools.com/jsref/dom_obj_event.asp
 
         # API
             - Fetch
@@ -544,7 +605,7 @@
 
         # Sample Apps
             - Sample Apps
-                - Weather Apps with Weather API
+                - Weather Apps with Real Weather API
                 - News App with Real API
 # NodeJS
     - NodeJS
@@ -576,7 +637,7 @@
                 - prettier
                 - Dotenv
             - Important libraries for Frontend
-                - React
+                - React <-- Will be disussed in this course.
                 - Vue
                 - Angular
                 - MeteorJS
@@ -671,3 +732,22 @@
         - File System
         - Media
         - Permissions
+
+# Devops
+        - GitHub
+        - Slack
+        - Github Actions
+        - CI/CD Pipeline
+        - Jenkins
+        - Docker
+        - Kubernetes
+        - Heroku
+        - AWS
+        - Azure
+        - Google Cloud
+        - Firebase
+        - Bitbucket
+        - Jira
+        - Trello
+        - Confluence
+        - Vercel
