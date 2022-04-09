@@ -336,7 +336,7 @@
 
 
 # Javascript
-    - Javascript
+##    - Basics
         - Variables
             - var, let, const
         - Popups
@@ -368,7 +368,7 @@
             - rest parameters
             - arrow functions
             - function binding (will be discussed in React event handling)
-        - Data Serialization
+##        - Data Serialization
             - JSON
                 - Parse
                 - Stringify
@@ -386,7 +386,7 @@
                 - It is used in configuration files
                 - It is used in data science and data mining
                 - It is becoming common
-        - Strings
+##        - Strings
             - Concatenation
             - Escape Characters
             - Template Literals
@@ -450,7 +450,7 @@
                         - https://regexr.com/
                         - examples
                             - https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285
-        - Rest vs Spread
+##        - Rest vs Spread
             - function test(firstName, lastName, ...otherInfo)
             - const test = ["test", ...more, "test"];
             - const name = "Mansoor";
@@ -460,12 +460,12 @@
             - const test = { ...myNames, runs: "test" };
             - const myName = { firstName: "mansoor", lastName: "nasir" };
             - const bio = { ...myName, website: "mansoornasir.com" };
-        - Number Methods
+##        - Number Methods
             - toExponential
             - toFixed
             - toPrecision
             - toString
-        - Date Methods
+##        - Date Methods
             - getDate
             - getDay
             - getFullYear
@@ -483,7 +483,7 @@
             - toTimeString
             - toUTCString
 
-        - Math Methods
+##        - Math Methods
             - abs
             - ceil
             - floor
@@ -495,7 +495,7 @@
             - sqrt
             - trunc
 
-        - Array Methods
+##        - Array Methods
             - length*
             - forEach
             - map
@@ -525,7 +525,7 @@
                 letters.forEach (function(value) {
                     text += value;
                 })
-        - Classes
+##        - Classes and Objects
             - Objects
                 - Private/Public Methods
                 - Private/Public Properties
@@ -551,14 +551,14 @@
                 - JSON
                 - Promise
             
-        - Modules
+##        - Modules
             - Line Export
             - Named Export
             - Default Export
             - Import/Require
 
 
-        # DOM
+## DOM
         - Document Methods
             - getElementById
             - getElementsByClassName
@@ -571,19 +571,19 @@
         - Events
             - https://www.w3schools.com/jsref/dom_obj_event.asp
 
-        # AJAX
+## AJAX
             - Understanding Request/Response Sequence
             - XMLHttpRequest
             - Response Status Codes/Text
             - Response Headers
             - Response Body
 
-        # Async Javascript
+## Async Javascript
             - Callback (Hell)
             - Promise
             - Async/Await
 
-        # API
+## API
             - Fetch
                 let response = await fetch(url);
             - Storage
@@ -603,7 +603,7 @@
             - Web Worker (Will not be discussed)
             - Canvas/Plotly/Chart.js/Google Chart/D3.js (Will not be discussed)
 
-        # Sample Apps
+## Sample Apps
             - Sample Apps
                 - Weather Apps with Real Weather API
                 - News App with Real API
@@ -679,7 +679,7 @@
 
 # React JS
     - React JS
-        - Basics
+## Basics
             - JSX
             - State
             - Props
@@ -694,7 +694,7 @@
             - Forms
             - Conditional Rendering
             - Lists
-        - Intermediate
+## Intermediate
             - Higher Order Components
             - Controlled vs Uncontrolled Components
             - Memo
@@ -705,7 +705,7 @@
                 - useHistory
                 - Custom Hooks
             - React Routers
-        - Advanced
+## Advanced
             - Redux
                 - Thunk
             - Context API
