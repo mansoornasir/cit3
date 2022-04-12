@@ -214,8 +214,8 @@
 
 // sort
 
-const marks = [45, 33, 20, 77, 80, 95, 40, 55, 30, 22]
-const remain = [60,77];
+// const marks = [45, 33, 20, 77, 80, 95, 40, 55, 30, 22]
+// const remain = [60,77];
 
 // const sum = marks
 //     .sort((a, b) => a - b)
@@ -316,3 +316,82 @@ const remain = [60,77];
 // const list = new Set([1,2,3,4,5,6])
 // list.add(4)
 
+// Default Parameter/Argument
+// const fun = (name = "Guest") => {
+//     console.log(`Hello ${name}`)
+// }
+
+// fun();
+
+// Regular Expressions
+// const str = "Mansur"
+
+// const t = str.search(/[a-z]/i)
+
+// console.log(t)
+
+// // System.out.println("Hello \"my\" World");`
+
+
+// const list = [1,2,4,5,76]
+
+// const list2 = [44,55,66,...list, 77]
+
+// console.log(list2)
+
+// const obj1 = {
+//     name: 'Abdus Samad',
+//     age: 23,
+//     marks: 30
+// }
+
+// const obj2 = {
+//     ...obj1,
+//     gpa: 3.2,
+//     semester: 6
+// }
+
+// const sum = (a,b,c,d,e,f) => {
+//     console.log(a + b);
+// }
+
+
+// const values = [10,20,2,3,4,5]
+
+
+// sum(values[0],values[1])
+
+// const count = (a,b, ...c) => {
+//     console.log(a + b);
+//     const s = c.reduce((a,b) => a + b, 0)
+//     console.log(s)
+// }
+
+// count(40,50,40,04,3,2,1,3,4)
+
+// const myName = "Ali";
+// let t = [...myName]
+
+// console.log(t)
+
+
+const fname = "Ali";
+const lname = "Khan";
+const age = 23;
+const gender = 'Male';
+const city = "Peshawar";
+const village = "Pawakay";
+const houseNo = 30;
+
+const data = {
+    fname,
+    lname,
+    age,
+    gender,
+    address: {
+        city,
+        village,
+        houseNo
+    }
+}
+console.log(data)
