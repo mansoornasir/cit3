@@ -607,6 +607,7 @@
             - Sample Apps
                 - Weather Apps with Real Weather API
                 - News App with Real API
+                - Quiz App with Real API
 # NodeJS
     - NodeJS
         - NPM vs Yarn
