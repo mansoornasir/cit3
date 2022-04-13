@@ -525,6 +525,52 @@
                 letters.forEach (function(value) {
                     text += value;
                 })
+
+        # Event Handling
+            - onclick
+            - onchange
+            - onmouseover
+            - onmouseout
+            - onkeydown
+            - onkeyup
+            - onkeypress
+            - onfocus
+            - onblur
+            - onsubmit
+            - onreset
+            - onload
+            - onunload
+            - onscroll
+            - onresize
+            - onselect
+       
+        # DOM
+        - Document Methods
+            - getElementById
+            - getElementsByClassName
+            - getElementsByTagName
+            - querySelector
+            - querySelectorAll
+            - HTML
+                - innerHTML
+                - innerText
+            - Attributes
+                - getElementById('test').src = 'image.jpg';
+            - Forms
+                - document.forms['form1']['name'].value = 'abc';
+            - CSS
+                - document.getElementById("abc").style.color = "tan";
+            - Events
+                - <h1 onclick="changeText(this)">Click on this text!</h1>
+                - function changeText(id) {
+                    id.innerHTML = "Ooops!";
+                    }
+            - (There are several more, but we will not cover them here)    
+            - CSS
+                - https://www.w3schools.com/jsref/dom_obj_style.asp
+            - Events
+                - https://www.w3schools.com/jsref/dom_obj_event.asp
+        
         - Classes
             - Objects
                 - Private/Public Methods
@@ -550,26 +596,12 @@
                 - String
                 - JSON
                 - Promise
-            
+
         - Modules
             - Line Export
             - Named Export
             - Default Export
             - Import/Require
-
-
-        # DOM
-        - Document Methods
-            - getElementById
-            - getElementsByClassName
-            - getElementsByTagName
-            - querySelector
-            - querySelectorAll
-            - (There are several more, but we will not cover them here)    
-        - CSS
-            - https://www.w3schools.com/jsref/dom_obj_style.asp
-        - Events
-            - https://www.w3schools.com/jsref/dom_obj_event.asp
 
         # AJAX
             - Understanding Request/Response Sequence
@@ -626,7 +658,7 @@
                 - Nodemon / Pm2 / Forever
                 - chalk
                 - JSHint
-                - Joi/Hapi
+                - Joi/Hapi/yup
                 - mongoose
                 - Lodash
                 - FakerJS
