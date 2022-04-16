@@ -10,10 +10,6 @@ const users = require('../data/others/users.json')
 
 // 4. Create a function that returns the name of the user with the lowest id.
 
-// 5. Create a function that returns the name of the user with the highest name length.
-
-// 6. Create a function that returns the name of the user with the lowest name length.
-
 // 7. Create a function that returns the name, email and address along with lat, long of the user.
 
 // 8. Create a function that checks if there are any user from the same city.
