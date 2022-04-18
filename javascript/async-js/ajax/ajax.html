@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Ajax</title>
+</head>
+<body>
+    <button onclick="loadData()">Load</button>
+    <div id="data"></div>
+    <!-- 
+        XMLHttpRequest is a built-in object that is used to make asynchronous HTTP requests.
+        onreadystatechange is a property of XMLHttpRequest that is used to determine the state of the request.
+        readyState is a property of XMLHttpRequest that is used to determine the state of the request.
+        status is a property of XMLHttpRequest that is used to determine the status of the request.
+        responseText is a property of XMLHttpRequest that is used to determine the response text of the request.
+        responseXML is a property of XMLHttpRequest that is used to determine the response XML of the request.
+        statusText is a property of XMLHttpRequest that is used to determine the status text of the request.
+        open is a method of XMLHttpRequest that is used to open the request.
+        send is a method of XMLHttpRequest that is used to send the request.
+        abort is a method of XMLHttpRequest that is used to abort the request.
+
+        XMLHttpRequest
+            onreadystatechange
+            readyState
+            status
+            statusText
+                1xx: Information
+                2xx: Success
+                3xx: Redirection
+                4xx: Client Error
+                5xx: Server Error
+
+            responseText
+            responseXML
+            open
+                GET
+                POST
+                PUT/PATCH
+                DELETE
+            send
+            abort
+    -->
+    <script>
+        function loadData() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("data").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax-data.php", true);
+            xhttp.send();
+        }
+    </script>
+</body>
+</html>

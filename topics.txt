@@ -512,7 +512,7 @@
             - push
                 The push() adds elements to the end of an array and returns the new length of the array.
             - concat
-               The concat() method is used to merge arrays. Concat does not change the existing arrays, but instead returns a new array.
+                The concat() method is used to merge arrays. Concat does not change the existing arrays, but instead returns a new array.
             - pop
             - indexOf
             - lastIndexOf
@@ -543,7 +543,7 @@
             - onscroll
             - onresize
             - onselect
-       
+
         # DOM
         - Document Methods
             - getElementById
@@ -622,17 +622,58 @@
             - Default Export
             - Import/Require
 
+        # Async Javascript
+            - Callback (Hell)
+            - Promise
+            - Async/Await
+        
         # AJAX
             - Understanding Request/Response Sequence
             - XMLHttpRequest
             - Response Status Codes/Text
             - Response Headers
             - Response Body
-
-        # Async Javascript
-            - Callback (Hell)
-            - Promise
-            - Async/Await
+            - XMLHttpRequest
+                XMLHttpRequest is a built-in object that is used to make asynchronous HTTP requests.
+                - onreadystatechange
+                    onreadystatechange is a property of XMLHttpRequest that is used to determine the state of the request.
+                - readyState
+                    readyState is a property of XMLHttpRequest that is used to determine the state of the request.
+                    - 0: request not initialized
+                    - 1: server connection established
+                    - 2: request received
+                    - 3: processing request
+                    - 4: request finished and response is ready                    
+                - status
+                    status is a property of XMLHttpRequest that is used to determine the status of the request.
+                    1xx: Information
+                    2xx: Success
+                    3xx: Redirection
+                    4xx: Client Error
+                    5xx: Server Error
+                - statusText
+                    statusText is a property of XMLHttpRequest that is used to determine the status text of the request.
+                    - OK 200
+                    - Not Found 404
+                    - Forbidden 403
+                    - Internal Server Error 500
+                    - Bad Request 400
+                    - Unauthorized 401
+                    - Not Acceptable 406
+                - responseText
+                    responseText is a property of XMLHttpRequest that is used to determine the response text of the request.
+                responseXML
+                    responseXML is a property of XMLHttpRequest that is used to determine the response XML of the request.
+                open
+                    open is a method of XMLHttpRequest that is used to open the request.
+                    GET
+                    POST
+                    PUT/PATCH
+                    DELETE
+                send
+                    send is a method of XMLHttpRequest that is used to send the request.
+                abort
+                    abort is a method of XMLHttpRequest that is used to abort the request.
 
         # API
             - Fetch
@@ -656,8 +697,18 @@
 
         # Sample Apps
             - Sample Apps
+                - Guessing Game
+                - Game of Craps
+                - Github Users API
                 - Weather Apps with Real Weather API
                 - News App with Real API
+                - Image Search (Unsplash API)
+                - Maps API
+                - Notes App (NodeJS)
+                - Expensify
+                - Todo App
+                - Quiz App
+
 # NodeJS
     - NodeJS
         - NPM vs Yarn
@@ -702,8 +753,8 @@
                     - Multer
                     - Pug
                     - EJS
-                - jsonwebtoken
                 - bcrypt
+                - jsonwebtoken
                 - Nodemailer
                 - NestJS
                 - Database

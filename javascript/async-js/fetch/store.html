@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Fake Store API</title>
+</head>
+<body>
+    <script>
+        // Get All products
+        fetch('https://fakestoreapi.com/products')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+
+        // Get a single product   
+        fetch('https://fakestoreapi.com/products/1')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+        
+        // Limit results
+        fetch('https://fakestoreapi.com/products?limit=5')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+        
+        // Sort Results
+        fetch('https://fakestoreapi.com/products?sort=desc')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+        
+
+        // Add new product
+        fetch('https://fakestoreapi.com/products', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                name: 'New Product',
+                price: '100'
+            })
+        })
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+
+        // Update product
+        fetch('https://fakestoreapi.com/products/7',{
+            method:"PUT", // can also add PATCH here.
+            body:JSON.stringify(
+                {
+                    title: 'test product',
+                    price: 13.5,
+                    description: 'lorem ipsum set',
+                    image: 'https://i.pravatar.cc',
+                    category: 'electronic'
+                }
+            )
+        })
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+
+        // Delete product
+        fetch('https://fakestoreapi.com/products/6',{
+            method:"DELETE"
+        })
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ready State</title>
+</head>
+
+<body>
+    <script>
+        var xhr = new XMLHttpRequest();
+        console.log('UNSENT', xhr.readyState); // readyState will be 0
+
+        xhr.open('GET', 'https://api.github.com/users', true);
+        console.log('OPENED', xhr.readyState); // readyState will be 1
+
+        xhr.onprogress = function () {
+            console.log('LOADING', xhr.readyState); // readyState will be 3
+        };
+
+        xhr.onload = function () {
+            console.log('DONE', xhr.readyState); // readyState will be 4
+        };
+
+        xhr.send();
+
+    </script>
+</body>
+
+</html>
