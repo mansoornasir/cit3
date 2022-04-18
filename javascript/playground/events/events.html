@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="input" on="inputListener()">
+    </form>
+    <button id="btn" onclick="listen()">Click</button>
+    <p style="color: blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est aliquid cumque optio itaque adipisci laboriosam illum porro repellendus labore sequi, quibusdam, veniam ab quam voluptatem harum deleniti accusantium in vero.</p>
+    <p onmouseenter="remove()">Catch me!</p>
+    <script>
+        const remove = () => {
+            document.write();
+        }   
+        const listen = () => {
+            alert('button clicked.')
+        }
+        const inputListener = () => {
+            console.log("changed")
+        }
+    </script>
+</body>
+</html>

@@ -375,23 +375,101 @@
 // console.log(t)
 
 
-const fname = "Ali";
-const lname = "Khan";
-const age = 23;
-const gender = 'Male';
-const city = "Peshawar";
-const village = "Pawakay";
-const houseNo = 30;
+// const fname = "Ali";
+// const lname = "Khan";
+// const age = 23;
+// const gender = 'Male';
+// const city = "Peshawar";
+// const village = "Pawakay";
+// const houseNo = 30;
 
-const data = {
-    fname,
-    lname,
-    age,
-    gender,
-    address: {
-        city,
-        village,
-        houseNo
-    }
-}
-console.log(data)
+// const data = {
+//     fname,
+//     lname,
+//     age,
+//     gender,
+//     address: {
+//         city,
+//         village,
+//         houseNo
+//     }
+// }
+// console.log(data)
+
+
+// const test = 12.1;
+
+// const test2 = 23
+
+
+// const num = test.toFixed(2)
+// const num2 = Math.ceil(test)
+// const num3 = Math.floor(test)
+
+// console.log(num3)
+
+
+// const fs = require('fs');
+
+// fs.writeFileSync("test.txt", "Hello World")
+
+// for(let i=0;i<10;i++) {
+//     const r = Math.random();
+//     console.log(Math.ceil(r*6))
+// }
+// random between numbers
+// function randomIntFromInterval(min, max) { // min and max included 
+//     return Math.floor(Math.random() * (max - min + 1) + min)
+//   }
+
+// for(let i = 0; i< 10 ;i++) {
+//     console.log(randomIntFromInterval(1,6))
+// // }
+// const d = new Date();
+// console.log(d.getDate())
+// console.log(d.getFullYear())
+// console.log(d.getYear())
+// console.log(d.getHours())
+// console.log(d.getDay())
+// console.log(d.getMinutes())
+// console.log(d.getSeconds())
+// console.log(d.getMilliseconds())
+// console.log(d.getTime())
+// console.log(d.getTimezoneOffset())
+// console.log(d.getUTCDate())
+
+
+// const list = [2,21,3,4,5,6,7,87]
+
+// const max = Math.min(...list)
+
+// console.log(max)
+
+// const s = new Set([1,2,3,4,5,6,7,8,9,10])
+// s.add(11)
+
+// console.log(s)
+
+const obj = [{
+    sno: 1,
+    name: 'Abdus Samad',
+    age: 23,
+    gpa: 3.0
+}]
+
+
+// const keys = Object.keys(obj)
+
+// for(let i=0;i<obj.length;i++) {
+//     console.log(obj[i].name)
+// }
+
+// for(o in obj) {
+//     console.log(obj[o].name)
+// }
+
+// const str = "Pakistan";
+
+// for(let j of str) {
+//     console.log(j)
+// }

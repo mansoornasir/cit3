@@ -563,8 +563,27 @@
             - Events
                 - <h1 onclick="changeText(this)">Click on this text!</h1>
                 - function changeText(id) {
-                    id.innerHTML = "Ooops!";
+                    id.innerHTML = "Testing."
                     }
+            - Elements
+                - let div = document.createElement('div');
+                    div.id = 'content';
+                    div.innerHTML = '<p>CreateElement example</p>';
+                    document.body.appendChild(div);
+                    h2.textContent = 'Add h2 element to the div';
+                    div.appendChild(h2);
+
+                    document.createElement('li');
+                    li.textContent = 'Products';
+                    menu.appendChild(li);
+                    li = document.createElement('li');
+                    li.textContent = 'About Us';
+                    const menu = document.querySelector('#menu');
+                    menu.appendChild(li);
+
+                    const att = document.createAttribute("class");
+                    att.value = "democlass";
+                    h1.setAttributeNode(att);
             - (There are several more, but we will not cover them here)    
             - CSS
                 - https://www.w3schools.com/jsref/dom_obj_style.asp
@@ -726,6 +745,7 @@
             - Forms
             - Conditional Rendering
             - Lists
+            - Animations (AOS)
         - Intermediate
             - Higher Order Components
             - Controlled vs Uncontrolled Components
@@ -742,6 +762,7 @@
                 - Thunk
             - Context API
             - Next JS
+            - Socket IO
 
 # React Native
     - React Native

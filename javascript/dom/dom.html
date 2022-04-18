@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <button onclick="changeDom()">Click</button>
+    <ul id="items">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <h1 id="head1">This is a heading</h1>
+    <img src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" id="img1" width="100" height="100">
+    <form id="f1">
+        <label>Username</label><input type="text" id="username" name="username" />
+        <label>Password</label><input type="password" id="password" name="password" />
+    </form>
+    <p style="color: red" id="para1" onclick="paraFun(this)">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam modi sequi officiis inventore delectus debitis alias exercitationem beatae. Quod ad harum placeat labore dolorum sint a cupiditate qui corrupti.</p>
+    <p style="color: red" id="para2" onclick="paraFun(this)">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam modi sequi officiis inventore delectus debitis alias exercitationem beatae. Quod ad harum placeat labore dolorum sint a cupiditate qui corrupti.</p>
+    <div id="news"></div>
+    <h2 id="head2">Heading 1</h2>
+    <script>
+        const changeDom = () => {
+            
+            const h2 = document.getElementById('head2');
+            h2.setAttribute('class', 'heading');
+
+
+            // Changing inner text of tags
+            document.getElementById("head1").innerHTML = "<u>Pakistan</u>";
+
+            // changing attributes of tags
+            document.getElementById("img1").width = "200";
+            document.getElementById("img1").height = "200";
+
+
+            const username = document.forms["f1"]["username"].value;
+            const password = document.forms["f1"]["password"].value;
+
+            console.log(username, password)
+
+
+            document.querySelector("#para1").style.backgroundColor = "green";
+
+
+            const p = document.createElement("p");
+            p.id = "abc";
+            p.innerHTML = "This is a new paragraph";
+
+            const div = document.getElementById("news")
+            div.appendChild(p);
+
+
+            const li = document.createElement("li");
+            li.textContent = "New Item";
+            document.getElementById("items").appendChild(li);
+
+
+        }
+        const paraFun = (para) => {
+            if(para.id === "para1") {
+                console.log('Para1')
+            }
+            else {
+                console.log('Para2')
+            }
+        }
+
+    </script>
+</body>
+</html>
