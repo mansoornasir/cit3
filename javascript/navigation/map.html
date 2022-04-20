@@ -9,23 +9,17 @@
 <body>
     <button onclick="getCoords()">Get Coordinates</button>
     <div id="coords"></div>
+    <iframe id="map" width="500" height="500"></iframe>
     <script>
         const getCoords = () => {
             navigator.geolocation.getCurrentPosition((position) => {
             const coords = document.createElement("div")
             coords.innerHTML = `Latitude: ${position.coords.latitude}<br>Longitude: ${position.coords.longitude}`
             document.querySelector("#coords").appendChild(coords)
+            
+            document.getElementById('map').setAttribute('src',`//maps.google.com/maps?q=${position.coords.latitude},${position.coords.longitude}&z=14&output=embed`)
 
-
-            fetch(`http://api.weatherapi.com/v1/current.json?q=${position.coords.latitude},${position.coords.longitude}&key=1db4640dedd8405b9bd195826221804`)
-                .then(res => res.json())
-                .then(json =>{
-                    console.log(json)
-                    const weather = document.createElement("div")
-                    weather.innerHTML = `Weather: ${json.current.temp_c}`
-                    document.querySelector("#coords").appendChild(weather)
-                })
-            })
+        })
     }
     </script>
 </body>

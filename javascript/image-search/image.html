@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <input type="text" id="term" placeholder="search" />
+    <button onclick="loadPics()">Click</button>
+    <div id="pics"></div>
+    <script>
+        const loadPics = async () => {
+            const key = "_6BxmIaoA4_E59wZFWYzf_2cfbVSZo7S-QMrnuDcLJE";
+            const term = "apple"//document.getElementById("term").value;
+            console.log(term)
+            fetch(`https://api.unsplash.com/search/photos?client_id=${key}&query=${term}`)
+                    .then(res => res.json())
+                    .then(json => {
+                        const pics = json.results.map(res => {
+                            // console.log(res.urls.raw)
+                            const img = document.createElement("img")
+                            img.setAttribute("src",res.urls.raw)
+                            img.setAttribute("width", 100)
+                            img.setAttribute("height", 100)
+
+                            document.querySelector("#pics").appendChild(img)
+
+                        })
+
+                    })
+        }
+    </script>
+</body>
+</html>

@@ -17,14 +17,15 @@
             document.querySelector("#coords").appendChild(coords)
 
 
-            fetch(`http://api.weatherapi.com/v1/current.json?q=${position.coords.latitude},${position.coords.longitude}&key=1db4640dedd8405b9bd195826221804`)
+            fetch(`https://us1.locationiq.com/v1/reverse.php?key=pk.2ce05a50d1ca31e503b2a60e82d6a395&lat=${position.coords.latitude}&lon=${position.coords.longitude}&format=json`)
                 .then(res => res.json())
                 .then(json =>{
-                    console.log(json)
-                    const weather = document.createElement("div")
-                    weather.innerHTML = `Weather: ${json.current.temp_c}`
-                    document.querySelector("#coords").appendChild(weather)
+                    // console.log(json)
+                    const address = document.createElement("div")
+                    address.innerHTML = `Address: ${json.display_name}`
+                    document.querySelector("#coords").appendChild(address)
                 })
+            
             })
     }
     </script>

@@ -6,6 +6,8 @@
 
 //  https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=34.0151&longitude=71.5249&localityLanguage=en
 
+// https://nominatim.openstreetmap.org/search?q=Peshawar&format=json
+
 
 // The following will return information about a fruit :)
 // https://www.fruityvice.com/api/fruit/all
@@ -21,3 +23,8 @@
 
 // Covid Cases
 // https://covid-api.mmediagroup.fr/v1/cases
+
+
+// A HUGE LIST OF MOSTLY FREE APIS
+
+// https://github.com/public-apis/public-apis

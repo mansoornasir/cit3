@@ -590,37 +590,6 @@
             - Events
                 - https://www.w3schools.com/jsref/dom_obj_event.asp
         
-        - Classes
-            - Objects
-                - Private/Public Methods
-                - Private/Public Properties
-                - Destructoring
-                - Keys
-            - Constructor
-            - this Keyword
-            - Inheritance
-            - Getters and Setters
-            - Static Methods/Variables
-            - Prototypes**
-            - Built-in Classes
-                - Array
-                - Date
-                - Error
-                - Function
-                - Map
-                - Math
-                - Object
-                - RegExp
-                - Set
-                - String
-                - JSON
-                - Promise
-
-        - Modules
-            - Line Export
-            - Named Export
-            - Default Export
-            - Import/Require
 
         # Async Javascript
             - Callback (Hell)
@@ -694,6 +663,38 @@
             - Forms (Will not be discussed)
             - Web Worker (Will not be discussed)
             - Canvas/Plotly/Chart.js/Google Chart/D3.js (Will not be discussed)
+
+        - Classes
+            - Objects
+                - Private/Public Methods
+                - Private/Public Properties
+                - Destructoring
+                - Keys
+            - Constructor
+            - this Keyword
+            - Inheritance
+            - Getters and Setters
+            - Static Methods/Variables
+            - Prototypes**
+            - Built-in Classes
+                - Array
+                - Date
+                - Error
+                - Function
+                - Map
+                - Math
+                - Object
+                - RegExp
+                - Set
+                - String
+                - JSON
+                - Promise
+
+        - Modules
+            - Line Export
+            - Named Export
+            - Default Export
+            - Import/Require
 
         # Sample Apps
             - Sample Apps
