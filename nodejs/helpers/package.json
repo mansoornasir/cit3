@@ -1,0 +1,20 @@
+{
+  "name": "helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "uuid_.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^6.1.2",
+    "chalk": "^5.0.1",
+    "dayjs": "^1.11.1",
+    "dotenv": "^16.0.0",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  }
+}

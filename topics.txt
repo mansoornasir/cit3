@@ -696,6 +696,11 @@
             - Default Export
             - Import/Require
 
+        - Exception Handling
+            - try/catch
+            - throw
+            - finally
+
         # Sample Apps
             - Sample Apps
                 - Guessing Game
@@ -715,47 +720,84 @@
         - NPM vs Yarn
             - local
             - global
-        - node_modules (git ignore)
+            - package.json
+                - dependency
+                - devDependency
+                - Start scripts
+        - node_modules (.gitignore)
         - command line args
         - common libraries/packages
             - core
                 - fs
                 - path
-                - util
                 - os
                 - url
             - Important libraries for everyone
-                - UUID
-                - Nodemon / Pm2 / Forever
-                - chalk
-                - JSHint
-                - Joi/Hapi/yup
-                - mongoose
-                - Lodash
-                - FakerJS
-                - validator
-                - MomentJS (depricated)
-                - Axios
-                - eslint
-                - prettier
-                - Dotenv
+                - helpers
+                    - UUID
+                    - chalk
+                    - Nodemon / Pm2 / Forever
+                    - JSHint
+                    - Lodash
+                    - FakerJS
+                    - MomentJS (depricated)
+                        - Day.js (now considered good)
+                        - Luxon
+                        - date-fns
+                        - js-Joda
+                    - Dotenv
+                - Validation
+                    - Joi
+                    - Validator
+                    - Yup
+                - Code Linting
+                    - JSHint
+                    - ESLint
+                    - Prettier
             - Important libraries for Frontend
-                - React <-- Will be disussed in this course.
-                - Vue
-                - Angular
-                - MeteorJS
-                - EmberJS
-                - PolymerJS
+                    - React <-- Will be disussed in this course.
+                    - Vue
+                    - Angular
+                    - MeteorJS
+                    - EmberJS
+                    - PolymerJS
             - Important libraries for Backend
                 - Express
                     - GET, POST, PUT/PATCH, DELETE
+                    - Middlewares
+                    - Routing
                     - Body Parser
                     - Cors
                     - Multer
                     - Pug
                     - EJS
+                - PHP Frameworks
+                    - Laravel
+                    - Symfony
+                    - CodeIgniter
+                    - CakePHP
+                    - Yii
+                    - Zend
+                - Python Frameworks
+                    - Django
+                    - Flask
+                - Java Frameworks
+                    - Springboot
+                    - Struts
+                    - Hibernate
+                - C# Frameworks
+                    - ASP.NET
+                    - ASP.NET MVC
+                    - ASP.NET Web API
+                - Ruby Frameworks
+                    - Ruby on Rails
+                    - Sinatra
+                    - Rack
+                    - Rails
+                    - Rails API
                 - bcrypt
                 - jsonwebtoken
+                - Axios
                 - Nodemailer
                 - NestJS
                 - Database
