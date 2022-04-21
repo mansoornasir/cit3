@@ -1,1 +1,19 @@
-some topics.
+- Components
+        - State
+        - Lifecycle
+        - Props
+        - Events
+        - Styles
+        - Navigation
+        - Push Notifications
+        - Animations
+        - Networking
+        - Storage
+        - WebSockets
+        - WebRTC
+        - WebGL
+        - Geolocation
+        - Camera
+        - File System
+        - Media
+        - Permissions
