@@ -24,7 +24,10 @@
 // Covid Cases
 // https://covid-api.mmediagroup.fr/v1/cases
 
+// Countries API
+// https://restcountries.com/
 
 // A HUGE LIST OF MOSTLY FREE APIS
 
 // https://github.com/public-apis/public-apis
+
