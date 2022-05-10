@@ -673,9 +673,24 @@
             - Constructor
             - this Keyword
             - Inheritance
+                - Overriding
             - Getters and Setters
+                class Person {
+                            constructor(name) {
+                                this._name = name;
+                            }
+                            get name() {
+                                return this._name;
+                            }
+                        }
+
+                        let person = new Person("Jane Doe");
+                        console.log(person.name);
+
+                        // attempt to change the name, but cannot
+                        person.name = 'Jane Smith';
+                        console.log(person.name); // Jane Doe
             - Static Methods/Variables
-            - Prototypes**
             - Built-in Classes
                 - Array
                 - Date
@@ -701,6 +716,16 @@
             - throw
             - finally
 
+            let num = 1;
+                try {
+                    num.toPrecision(500);   // A number cannot have 500 significant digits
+                }
+                catch(err) {
+                    document.getElementById("demo").innerHTML = err.name;
+                }
+            - Guard clause 
+                if (!something) return;
+                
         # Sample Apps
             - Sample Apps
                 - Guessing Game
