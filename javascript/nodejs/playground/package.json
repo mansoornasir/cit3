@@ -1,0 +1,19 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mymodules.js",
+  "scripts": {
+    "dev": "nodemon mymodules.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "keycode-js": "^3.1.0",
+    "lodash": "^4.17.21",
+    "pm2": "^5.2.0",
+    "uuid": "^8.3.2"
+  }
+}

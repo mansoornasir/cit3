@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="address"></div>
+    <iframe id="map"></iframe>
+    <script>
+        navigator.geolocation.getCurrentPosition((position) => {
+            const lat = position.coords.latitude;
+            const long = position.coords.longitude;
+
+            
+            document.getElementById('map').setAttribute('src', `//maps.google.com/maps?q=${lat},${long}&z=15&output=embed`)
+
+            // fetch(`https://www.mapquestapi.com/geocoding/v1/reverse?key=Nnxzvmg08vlDM8y1cgiA2pNcEgG2P0Jd&location=${lat}%2C${long}&outFormat=json&thumbMaps=false`)
+            //         .then(res => res.json())
+            //         .then(json => {
+
+                        // const street = json.results[0].locations[0].street;
+
+                        console.log(street)
+
+                        // const h3 = document.createElement("h3")
+                        // h3.innerHTML = `Address : ${json.address.state}`
+
+                        // document.getElementById("address").appendChild(h3)
+                    // })
+        })
+    </script>
+</body>
+</html>
