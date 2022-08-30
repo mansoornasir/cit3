@@ -865,17 +865,28 @@
             - Conditional Rendering
             - Lists
             - Animations (AOS)
+            - Framer Motion
         - Intermediate
             - Higher Order Components
             - Controlled vs Uncontrolled Components
-            - Memo
             - Hooks
                 - useState
                 - useEffect
                 - useRef
-                - useHistory
+                - useMemo
+                - useContext
+                - useLocation
                 - Custom Hooks
             - React Routers
+                - Lazy Loading
+            - React Semantic UI
+            - React Bootstrap
+            - React Material UI
+            - Formik
+            - Testing
+                - Unit
+                - Component
+                - E2E
         - Advanced
             - Redux
                 - Thunk
