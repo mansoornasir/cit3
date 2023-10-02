@@ -754,4 +754,5 @@
         - Vercel
 
 # Videos
-https://drive.google.com/drive/folders/1DvYL00UZO_kQDJ1f0aviqp3IsBgazj-L?usp=sharing
+All my videos of web development are uploaded to YouTube for students to watch. Share this with your fellows so that they can benefit from it. Thank you
+https://www.youtube.com/playlist?list=PLMM7FP1Z2t0oy-Rh2XGHf-Jq4iIVvfOx3 
